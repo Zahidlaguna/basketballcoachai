@@ -1,2 +1,0 @@
-pip install groq
-pip install streamlit 
