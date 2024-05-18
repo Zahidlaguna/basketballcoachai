@@ -12,7 +12,7 @@ st.subheader("This is a basketball coach AI, where you can ask questions about b
 
 
 api_key = os.getenv("GROQ_API_KEY")
-client = Groq.Client(api_key=api_key)
+client = Groq.client(api_key=api_key)
 
 model = "llama3-8b-8192"
 
